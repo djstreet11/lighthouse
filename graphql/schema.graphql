@@ -1,0 +1,10 @@
+
+type Query {
+    products(page: Int!,count: Int!): Products!
+}
+type Products{
+    name: String!
+    description: String!
+    price: Float!
+}
+
